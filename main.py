@@ -26,9 +26,7 @@ def zalacreation(email, link_newsletter,PATH):
     options.headless = False  # Use the program in this mode... Headless == True should not work
     driver = webdriver.Chrome(options=options, executable_path=PATH)
     driver.set_window_size(200, 200) #You can change the size or comment this command
-
     t = 2
-
     driver.get(link_newsletter)
 
     element = WebDriverWait(driver,t).until(EC.element_to_be_clickable((By.ID,'uc-btn-accept-banner')))
