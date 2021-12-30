@@ -5,7 +5,9 @@ This program generates Zalando discount codes using Selenium. This code is very 
 
 YOU MUST USE "TRUE" EMAIL, RANDOM,TEMPORALLY AND CATCHALL EMAILS DON'T WORK. 
 
-You need to download the chromedriver (https://chromedriver.chromium.org/downloads) which is compatible with your chrome version (chrome://version).
+First of all you need to install selenium and discord.py...you can download them from requirement.txt.
+
+Than you need to download the chromedriver (https://chromedriver.chromium.org/downloads) which is compatible with your chrome version (chrome://version).
 
 Paste the chromedriver path on the variable PATH in the main.py file (ex: C:\Program Files (x86)\chromedriver.exe).
 
