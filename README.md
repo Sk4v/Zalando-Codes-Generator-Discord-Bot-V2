@@ -15,6 +15,7 @@ Once the bot is online you can check if it is running using the following comman
 ![WhatsApp Image 2021-11-10 at 21 49 58 (1)](https://user-images.githubusercontent.com/44948225/141191885-f22eee39-c887-4d20-8ae8-6646596ad036.jpeg)
 
 Use the following command to generate codes
+
 ![comandoBot](https://user-images.githubusercontent.com/44948225/147741530-219f71fd-2830-4c4c-bf2f-da2329e4d67f.JPG)
 
 By default the bot will create 5 discount codes but you can change the number to your liking...you just have to change the number_gen variable.
