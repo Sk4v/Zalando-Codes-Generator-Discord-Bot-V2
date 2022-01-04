@@ -53,7 +53,7 @@ def zalacreation(email, link_newsletter):
     element = WebDriverWait(driver, t).until(EC.element_to_be_clickable((By.XPATH,'/html/body/div[4]/div/div/div/div/div/div/div[2]/div/div/form/div/div/div[5]/button')))
     element.click()
 
-def discordbot(token,PATH):
+def discordbot(token):
     client = commands.Bot(command_prefix='!')
 
     @client.event
@@ -90,5 +90,5 @@ if __name__ == '__main__':
     token = 'discord bot token'
     PATH = 'chromedirver Path'
 
-    discordbot(token,PATH)
+    discordbot(token)
 
