@@ -24,7 +24,6 @@ def emailgen(email):
     return (e[0] + '+' + l + '@' + e[1])
 
 
-#def zalacreation(email, link_newsletter,PATH):
 def zalacreation(email, link_newsletter):
 
     options = Options()
@@ -81,7 +80,6 @@ def discordbot(token,PATH):
         print(random_emails)
 
         for randem in random_emails:
-            #zalacreation(randem,'https://www.zalando.it/zalando-newsletter/',PATH)
             zalacreation(randem,'https://www.zalando.it/zalando-newsletter/')
              #You can change your link_newsletter for your country
 
