@@ -55,6 +55,7 @@ def discordbot(token,PATH):
 
     @client.command()
     async def mkcodes(ctx,arg):
+        #await ctx.message.delete() uncomment to delete your command that show you email
         await ctx.send('**HEY...CHECK YOUR EMAIL**')
 
         number_gen=5  #You can change this variable to your liking
