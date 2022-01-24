@@ -1,6 +1,8 @@
 # Zalando-Codes-Generator-Discord-Bot-V2
 Discord bot that sends Zalando discount codes to your email.
 
+*CONTACT ME ON DISCORD Sk4v#4331 IF YOU WANT A FASTER SOLUTIONS (1 code x second)*
+
 This program generates Zalando discount codes using Selenium. This code is very simple and easy to understand.
 
 YOU MUST USE "TRUE" EMAIL, RANDOM,TEMPORALLY AND CATCHALL EMAILS DON'T WORK. 
